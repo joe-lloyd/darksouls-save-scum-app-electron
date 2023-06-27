@@ -1,0 +1,28 @@
+{
+  "name": "electron-file-saving-app",
+  "version": "1.0.0",
+  "source": "main.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron main.js",
+    "watch": "parcel src/index.html --public-url ./",
+    "build": "parcel build src/index.html --public-url ./"
+  },
+  "dependencies": {
+    "electron-better-ipc": "^2.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.9.3",
+    "@types/electron": "^1.6.10",
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
+    "buffer": "^6.0.3",
+    "electron": "^25.2.0",
+    "parcel": "^2.9.3",
+    "path-browserify": "^1.0.1",
+    "process": "^0.11.10",
+    "typescript": "^5.1.3"
+  }
+}

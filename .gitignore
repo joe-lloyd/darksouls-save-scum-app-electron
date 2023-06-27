@@ -1,0 +1,25 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore the npm debug log file
+npm-debug.log*
+
+# Ignore the Electron build directory
+dist/
+electron-out/
+
+# Ignore .env files
+.env
+.env.local
+
+# Ignore .DS_Store (macOS)
+.DS_Store
+
+# Ignore the JetBrains .idea directory
+.idea/
+
+# Ignore user settings file
+settings.json
+
+# Ignore parcel cache directory
+.parcel-cache/
